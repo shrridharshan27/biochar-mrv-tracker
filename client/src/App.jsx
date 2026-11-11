@@ -46,7 +46,7 @@ export default function App() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-600" />
-                <span className="font-semibold text-slate-800">Varaha Internship Project</span>
+                <span className="font-semibold text-slate-800">Carbon Removal Project</span>
                 <span className="text-slate-400">•</span>
                 <span>Biochar MRV Tracker & Cryptographic Ledger</span>
               </div>

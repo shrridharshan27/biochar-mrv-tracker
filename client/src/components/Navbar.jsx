@@ -44,7 +44,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col">
                 <span className="text-sm font-semibold tracking-tight text-white group-hover:text-emerald-400 transition-colors">
-                  Varaha Biochar MRV
+                  Biochar MRV
                 </span>
                 <span className="text-[10px] text-slate-400 tracking-normal font-mono -mt-0.5">
                   Tamper-Proof Carbon Ledger
