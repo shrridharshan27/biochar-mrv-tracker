@@ -1,8 +1,8 @@
 {
-  "name": "varaha-biochar-mrv-tracker",
+  "name": "biochar-mrv-tracker",
   "version": "1.0.0",
   "private": true,
-  "description": "Varaha Biochar MRV Tracker — Cryptographic Tamper-Proof Carbon Removal Audit Ledger",
+  "description": "Biochar MRV Tracker — Cryptographic Tamper-Proof Carbon Removal Audit Ledger",
   "scripts": {
     "dev": "concurrently -n \"server,client\" -c \"blue,green\" \"npm --prefix server start\" \"npm --prefix client dev\"",
     "build": "npm --prefix client run build",
