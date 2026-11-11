@@ -1,4 +1,4 @@
-# Varaha Biochar MRV Tracker
+# Biochar MRV Tracker
 ### High-Integrity Digital MRV & Cryptographic Tamper-Proof Carbon Ledger
 
 [![E2E Test Suite](https://img.shields.io/badge/tests-44%20passed-emerald?style=flat-square)](./TEST_READY.md)
@@ -10,7 +10,7 @@
 
 ## 1. Executive Overview
 
-The **Varaha Biochar MRV Tracker** is an enterprise-grade digital Measurement, Reporting, and Verification (**dMRV**) full-stack web application designed for smallholder agricultural carbon removal projects across the Global South. Developed as a foundational capability showcase for the **Varaha Internship Program**, the system bridges the gap between field-level biomass pyrolysis operations and financial-grade voluntary carbon markets.
+The **Biochar MRV Tracker** is an enterprise-grade digital Measurement, Reporting, and Verification (**dMRV**) full-stack web application designed for agricultural carbon removal projects and distributed biomass pyrolysis operations. The system bridges the gap between field-level biomass pyrolysis operations and financial-grade voluntary carbon markets through cryptographic data integrity.
 
 ### The Smallholder Carbon Challenge
 In tropical agroecosystems across India, Southeast Asia, and Sub-Saharan Africa, over 500 million smallholder farmers produce massive volumes of residual agricultural biomass (paddy straw, sugarcane bagasse, cotton stalks, bamboo prunings). Often, this biomass is subjected to open-field burning, releasing catastrophic pulses of short-lived climate pollutants ($\text{CH}_4$, black carbon) and carbon dioxide into the atmosphere.
@@ -42,7 +42,7 @@ The application is structured as a decoupled monorepo engineered for zero third-
 ```
                               MONOREPO ARCHITECTURE
                               
-  c:\Project\internship\
+  biochar-mrv-tracker/
   ├── package.json              # Monorepo orchestration (dev, build, start, test)
   ├── README.md                 # System documentation & technical specification
   ├── IDEAS.md                  # Strategic climate-tech proposals & comparative matrix
@@ -248,7 +248,7 @@ To bridge digital database records with physical sacks of biochar in the field, 
 ```
        Physical Sack                       Mobile Smartphone                 Central Ledger
   ┌───────────────────────┐            ┌───────────────────────┐        ┌───────────────────────┐
-  │  VARAHA BIOCHAR BAG   │   Scan     │   Field Auditor App   │  GET   │  Biochar MRV Server   │
+  │  TAGGED BIOCHAR BAG   │   Scan     │   Field Auditor App   │  GET   │  Biochar MRV Server   │
   │  Batch: 01JCA0V2B8... │ ─────────► │  Decodes JSON Voucher │ ─────► │  GET /api/batches/:id │
   │  [ QR Code Voucher ]  │            │  Matches Hash & ID    │        │  Verifies SHA-256     │
   └───────────────────────┘            └───────────────────────┘        └───────────────────────┘
@@ -426,14 +426,14 @@ The test harness runs direct out-of-band SQL modifications to confirm the verifi
 
 ---
 
-## 9. Strategic Ideation Showcase: Climate-Tech Projects for Varaha
+## 9. Strategic Ideation Showcase: High-Integrity Carbon Removal Projects
 
-In addition to the Biochar MRV Tracker, the repository includes **`IDEAS.md`**, an exhaustive 900-line strategic proposal outlining four advanced digital MRV concepts tailored to Varaha's commercial operations across smallholder agriculture in the Global South.
+In addition to the Biochar MRV Tracker, the repository includes **`IDEAS.md`**, an exhaustive strategic proposal outlining four advanced digital MRV concepts tailored for high-durability carbon removal across agricultural and industrial biomass operations.
 
 ### The 4 Deep Proposals
 
 ```
-                                  VARAHA dMRV SUITE
+                              HIGH-INTEGRITY dMRV SUITE
                                   
   ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
   │ 1. SOC SATELLITE-MODEL  │   │ 2. AGROFORESTRY CANOPY  │   │ 3. RICE AWD METHANE     │
@@ -488,17 +488,17 @@ All five projects are benchmarked across eight technical and operational dimensi
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Standard / Methodology** | Verra VM0042 | Verra VM0047 | Verra VM0042 / AMS-III.AU| Isometric / Puro.earth | Puro.earth / EBC |
 | **Durability Horizon** | 20–100 Years | 30–100 Years | Emission Avoidance | > 10,000 Years | **100–1,000+ Years** |
-| **1. Domain Relevance to Varaha** | 5 / 5 | 5 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
+| **1. Domain Relevance & Impact** | 5 / 5 | 5 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
 | **2. Technical Depth & Rigor** | 5 / 5 | 5 / 5 | 4 / 5 | 5 / 5 | **4 / 5** |
 | **3. Feasibility in 6–12 Weeks** | 3 / 5 | 3 / 5 | 4 / 5 | 4 / 5 | **5 / 5** |
 | **4. Showcase & Live Demo Value** | 5 / 5 | 5 / 5 | 4 / 5 | 4 / 5 | **5 / 5** |
 | **5. API Resilience & Independence**| 3 / 5 | 2 / 5 | 4 / 5 | 3 / 5 | **5 / 5** |
 | **6. Cryptographic Tamper-Proofing**| 3 / 5 | 3 / 5 | 4 / 5 | 4 / 5 | **5 / 5** |
 | **7. Climate Impact Potential** | 5 / 5 | 5 / 5 | 5 / 5 | 5 / 5 | **4 / 5** |
-| **8. Pedagogical Value for Cohorts**| 4 / 4 | 4 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
+| **8. Pedagogical Value for Teams**| 4 / 4 | 4 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
 | **TOTAL SCORE (out of 40)** | **33 / 40** | **32 / 40** | **35 / 40** | **33 / 40** | **38 / 40** |
 
-*For full scientific formulas, Python/TypeScript architectures, and the 4-tier internship curriculum breakdown, see [`IDEAS.md`](./IDEAS.md).*
+*For full scientific formulas, Python/TypeScript architectures, and comprehensive system specifications, see [`IDEAS.md`](./IDEAS.md).*
 
 ---
 
@@ -511,7 +511,7 @@ All five projects are benchmarked across eight technical and operational dimensi
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/varaha-climate/biochar-mrv-tracker.git
+git clone https://github.com/shrridharshan27/biochar-mrv-tracker.git
 cd biochar-mrv-tracker
 ```
 
@@ -602,12 +602,12 @@ All commands can be executed directly from the root repository directory:
 
 ## 13. Project Verification Checklist
 
-- [x] **Requirement R1**: Comprehensive climate-tech & carbon removal ideation document created (`IDEAS.md`), detailing 4 deep Varaha proposals and an 8-criteria comparative evaluation matrix.
+- [x] **Requirement R1**: Comprehensive climate-tech & carbon removal ideation document created (`IDEAS.md`), detailing 4 deep carbon removal proposals and an 8-criteria comparative evaluation matrix.
 - [x] **Requirement R2**: Express backend with append-only SQLite database (`better-sqlite3`), ULID primary keys, ISO8601 timestamps, server-side non-negotiable $CO_2$ calculation ($mass_{out} \times 0.60 \times 3.67$), deterministic SHA-256 hash chaining, PNG QR generation, RFC 4180 CSV export, and full `/api/verify` tamper detection.
 - [x] **Requirement R3**: Responsive React single-page application adhering to `/unslop` scientific craft standards (no AI slop, no purple gradients, monospace tabular figures, high-contrast dark/light palette, custom toast feedback, and full batch inspection).
 - [x] **Requirement R4**: Unified monorepo packaging (`package.json`) with `dev`, `build`, `start`, `test`, `test:backend`, complete automated test suites (78 total tests across unit, integration, and E2E), and comprehensive project documentation (`README.md`).
 
 ---
 
-**Developed for the Varaha Climate-Tech Internship Program.**  
-*Empowering smallholder farmers, advancing digital MRV, and building permanent climate solutions.*
+**High-Integrity Carbon Removal & Digital MRV.**  
+*Advancing digital MRV transparency and building permanent climate solutions through cryptographic proof.*

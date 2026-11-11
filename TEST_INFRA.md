@@ -2,7 +2,7 @@
 
 **Document Identifier**: `TEST-INFRA-001`  
 **Author**: E2E Test Architect (E2E Testing Track)  
-**Project**: Varaha Climate-Tech & Biochar MRV Tracker  
+**Project**: Biochar MRV Tracker  
 **Target Milestone**: M-Test / Requirement R4  
 **Date**: November 2026  
 **Status**: APPROVED & ACTIVE  
@@ -28,7 +28,7 @@ Derived from `ORIGINAL_REQUEST.md`, `plan.md`, and technical surveys:
 
 | Feature ID | Category | Feature Name | Description | Authoritative Source |
 |---|---|---|---|---|
-| **F01** | Ideation | Climate-Tech Ideation Proposals | 4 deep project proposals tailored to Varaha (SOC dMRV, Agroforestry Biomass, Rice AWD Methane, ERW Mass Balance). | `ORIGINAL_REQUEST.md` § R1 |
+| **F01** | Ideation | Climate-Tech Ideation Proposals | 4 deep project proposals for high-durability carbon removal (SOC dMRV, Agroforestry Biomass, Rice AWD Methane, ERW Mass Balance). | `ORIGINAL_REQUEST.md` § R1 |
 | **F02** | Ideation | Ideation Comparative Evaluation | 8-criteria comparative evaluation matrix evaluating proposals against Biochar MRV Tracker. | `ORIGINAL_REQUEST.md` § R1 |
 | **F03** | Ideation | `IDEAS.md` Document | Formal documentation of climate-tech proposals and comparative matrix in repository root. | `ORIGINAL_REQUEST.md` § R1 |
 | **F04** | Backend | Append-Only SQLite Schema | SQLite schema with ULID primary keys, ISO 8601 timestamps, numeric masses and temperature, notes, and cryptographic hashes. | `ORIGINAL_REQUEST.md` § R2 |
@@ -55,7 +55,7 @@ Derived from `ORIGINAL_REQUEST.md`, `plan.md`, and technical surveys:
 
 ### 3.1 Directory Layout
 ```
-c:\Project\internship\
+biochar-mrv-tracker/
 ├── TEST_INFRA.md                  # This specification
 ├── TEST_READY.md                  # Test execution report and instructions
 └── tests\

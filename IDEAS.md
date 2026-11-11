@@ -1,46 +1,46 @@
 # Climate-Tech & Carbon Removal Project Ideation: Digital MRV Systems for the Global South
 
 **Author:** Climate-Tech Ideation Specialist (Worker M1)  
-**Organization:** Varaha Climate-Tech Internship Program  
+**Category:** Climate-Tech & Carbon Removal Digital MRV Systems  
 **Scope:** Requirement R1 — Alternative Project Proposals, Capability Benchmark & Strategic Evaluation  
 **Status:** Complete & Validated  
 
 ---
 
 ## Table of Contents
-1. [Executive Overview & Varaha Internship Context](#1-executive-overview--varaha-internship-context)
+1. [Executive Overview & Digital MRV Context](#1-executive-overview--digital-mrv-context)
    - 1.1 Smallholder Agriculture in the Global South
    - 1.2 Nature-Based Solutions (NbS) & High-Durability Carbon Removal (CDR)
    - 1.3 The Tripartite Imperative of Digital MRV (dMRV)
-   - 1.4 Pedagogical Mission of the Varaha Internship
+   - 1.4 Engineering & Applied Research Methodology
 2. [Deep Project Proposal 1: Soil Organic Carbon (SOC) Stratified Satellite-Model Fusion Platform](#2-project-proposal-1-soil-organic-carbon-soc-stratified-satellite-model-fusion-platform)
    - 2.1 Problem Statement & Agricultural Reality
    - 2.2 Scientific & Biogeochemical Background (RothC-26.3 Dynamics)
    - 2.3 Technical Architecture & Data Ingestion Pipeline
    - 2.4 Algorithmic Core: Bare Soil Spectral Inversion & cLHS Optimization
    - 2.5 6–12 Week Student Internship Implementation Scope
-   - 2.6 Alignment with Varaha Strategic Goals (Verra VM0042 / FAO GSOC)
+   - 2.6 Strategic Alignment with International Standards (Verra VM0042 / FAO GSOC)
 3. [Deep Project Proposal 2: Agroforestry Canopy & Aboveground Biomass (AGB) Estimation Engine](#3-project-proposal-2-agroforestry-canopy--aboveground-biomass-agb-estimation-engine)
    - 3.1 Problem Statement & Agrarian Context
    - 3.2 Scientific & Allometric Background (Chave Equations & GEDI LiDAR)
    - 3.3 Technical Architecture & Multi-Modal Remote Sensing Pipeline
    - 3.4 Algorithmic Core: SAR Polarimetric Texture, Watershed Segmentation & Canopy Inversion
    - 3.5 6–12 Week Student Internship Implementation Scope
-   - 3.6 Alignment with Varaha Strategic Goals (Verra VM0047 / Plan Vivo)
+   - 3.6 Strategic Alignment with International Standards (Verra VM0047 / Plan Vivo)
 4. [Deep Project Proposal 3: Alternate Wetting & Drying (AWD) Rice Methane Reduction Verifier](#4-project-proposal-3-alternate-wetting--drying-awd-rice-methane-reduction-verifier)
    - 4.1 Problem Statement & Methanogenesis Context
    - 4.2 Scientific & Hydrological Background (Radar Specular Reflectance & IPCC Tier 2)
    - 4.3 Technical Architecture & Cloud-Penetrating Radar Pipeline
    - 4.4 Algorithmic Core: Dynamic Otsu Inundation Classification & State Machine
    - 4.5 6–12 Week Student Internship Implementation Scope
-   - 4.6 Alignment with Varaha Strategic Goals (Verra VM0042 / CDM AMS-III.AU)
+   - 4.6 Strategic Alignment with International Standards (Verra VM0042 / CDM AMS-III.AU)
 5. [Deep Project Proposal 4: Enhanced Rock Weathering (ERW) Catchment Geochemical Mass Balance Tracker](#5-project-proposal-4-enhanced-rock-weathering-erw-catchment-geochemical-mass-balance-tracker)
    - 5.1 Problem Statement & Geochemical Mineralization Context
    - 5.2 Scientific & Kinetic Background (Palandri-Kharaka Dissolution & Bicarbonate Netting)
    - 5.3 Technical Architecture & Reactive Transport Pipeline
    - 5.4 Algorithmic Core: Shrinking-Core Kinetics, Immobile Tracers & Cradle-to-Gate LCA
    - 5.5 6–12 Week Student Internship Implementation Scope
-   - 5.6 Alignment with Varaha Strategic Goals (Isometric ERW Standard / Puro.earth)
+   - 5.6 Strategic Alignment with International Standards (Isometric ERW Standard / Puro.earth)
 6. [Biochar MRV Tracker Showcase Evaluation (Requirements R2–R4 Anchor)](#6-biochar-mrv-tracker-showcase-evaluation-requirements-r2r4-anchor)
    - 6.1 Role as the Foundational Software Engineering Showcase
    - 6.2 Architectural Integrity: Append-Only SQLite & SHA-256 Hash Chaining
@@ -50,14 +50,14 @@
 7. [Comprehensive Comparative Evaluation Matrix](#7-comprehensive-comparative-evaluation-matrix)
    - 7.1 Multi-Dimensional Benchmark Matrix (5 Projects × 8 Evaluation Criteria)
    - 7.2 Detailed Qualitative Trade-Off Analysis Across Dimensions
-8. [Strategic Recommendations & Progressive Internship Curriculum](#8-strategic-recommendations--progressive-internship-curriculum)
+8. [Strategic Recommendations & Architecture Roadmap](#8-strategic-recommendations--progressive-internship-curriculum)
    - 8.1 Why Biochar MRV is the Optimal Foundational Build
-   - 8.2 A 4-Tier Progressive Curriculum for Climate-Tech Cohorts
-   - 8.3 Concluding Vision for Varaha's Digital Climate Infrastructure
+   - 8.2 A 4-Tier Progressive Architecture for Climate-Tech Systems
+   - 8.3 Concluding Vision for Digital Climate Infrastructure
 
 ---
 
-## 1. Executive Overview & Varaha Internship Context
+## 1. Executive Overview & Digital MRV Context
 
 ### 1.1 Smallholder Agriculture in the Global South
 Smallholder agriculture forms the socioeconomic backbone of the Global South. Across India, Southeast Asia, and Sub-Saharan Africa, over 500 million smallholder farming families cultivate plots typically under two hectares in size. These farming communities are disproportionately vulnerable to climate disruptions—experiencing groundwater depletion, monsoonal erraticism, soil organic matter exhaustion, and surging input costs. 
@@ -99,13 +99,13 @@ To overcome this economic bottleneck, **Digital MRV (dMRV)** replaces manual bur
 2. **Cryptographic Provenance**: Carbon credits represent intangible legal titles. The underlying field data (feedstock weight, kiln temperatures, plot boundaries, drainage timestamps) must be stored in tamper-proof, append-only ledgers protected by cryptographic hashes to eliminate retroactive falsification, double-counting, and phantom credits.
 3. **Uncertainty Quantification**: High-durability standards (Isometric, Puro.earth, Verra VM0042) require strict accounting of measurement variance. All carbon accounting models must compute 90% or 95% confidence intervals, deducting the uncertainty margin from credited tonnage (the "conservative principle").
 
-### 1.4 Pedagogical Mission of the Varaha Internship
-The Varaha Internship Program bridges academic software engineering and climate-tech domain realities. The goal is not merely to build toy dashboards, but to train students to grapple with the rigorous intersection of:
+### 1.4 Engineering & Applied Research Methodology
+This initiative bridges software engineering and climate-tech domain realities to tackle the rigorous intersection of:
 - High-throughput geospatial remote sensing pipelines (Sentinel, Landsat, GEDI LiDAR).
 - Biogeochemical and reactive transport modeling (RothC, Palandri-Kharaka, IPCC Tier 2).
 - Robust distributed systems, cryptographic audit trails, deterministic computation, and full-stack software delivery.
 
-This document presents four advanced project proposals tailored specifically to Varaha’s operational domain, thoroughly evaluates the anchor **Biochar MRV Tracker**, and benchmarks all concepts across eight engineering and pedagogical dimensions.
+This document presents four advanced project proposals tailored specifically to high-durability operational domains, thoroughly evaluates the anchor **Biochar MRV Tracker**, and benchmarks all concepts across eight engineering and technical dimensions.
 
 ---
 
@@ -242,8 +242,8 @@ This reduces the required ground-truth sampling density by $70\%$ while satisfyi
   - Build a React + MapLibre GL web client where users upload farm polygon GeoJSONs, visualize bare-soil composites, inspect RothC 10-year forward projection curves, and download an auditable sampling protocol.
   - Run validation tests against ground-truth public soil datasets (e.g., WoSIS).
 
-### 2.6 Alignment with Varaha Strategic Goals (Verra VM0042 / FAO GSOC)
-This platform directly accelerates Varaha's flagship regenerative agriculture programs. By slashing physical soil core requirements from 20 samples/cluster to 5 targeted cLHS locations, project verification overhead drops from $\$1,500$ to $\$350$ per cluster, unlocking economic viability for thousands of smallholder farmer cooperatives.
+### 2.6 Strategic Alignment with International Standards (Verra VM0042 / FAO GSOC)
+This platform directly accelerates large-scale regenerative agriculture programs. By slashing physical soil core requirements from 20 samples/cluster to 5 targeted cLHS locations, project verification overhead drops from $\$1,500$ to $\$350$ per cluster, unlocking economic viability for thousands of smallholder farmer cooperatives.
 
 ---
 
@@ -369,8 +369,8 @@ Herbaceous crops display uniform low-contrast textures, whereas isolated boundar
   - Build a React frontend featuring a `deck.gl` 3D canopy height visualization.
   - Implement radar disturbance alerting: flag any parcel where $\Delta\sigma_{VH}^0 < -3.0\ \text{dB}$ between consecutive 12-day radar passes, indicating tree cutting.
 
-### 3.6 Alignment with Varaha Strategic Goals (Verra VM0047 / Plan Vivo)
-Varaha has planted millions of trees across smallholder farms in India and Africa. This engine provides continuous, automated tree survivability verification without requiring field enumerators to physically inspect every tree, directly providing Verra VM0047-compliant canopy monitoring at fractional cost.
+### 3.6 Strategic Alignment with International Standards (Verra VM0047 / Plan Vivo)
+Agroforestry initiatives encompass millions of trees across smallholder farms in India and Africa. This engine provides continuous, automated tree survivability verification without requiring field enumerators to physically inspect every tree, directly providing Verra VM0047-compliant canopy monitoring at fractional cost.
 
 ---
 
@@ -535,8 +535,8 @@ Every parcel transitions through a temporal state machine:
   - Develop an interactive React dashboard showing parcel-level backscatter hydrographs, color-coded state transitions, and net $\text{tCO}_2\text{e}$ abatement numbers.
   - Generate a downloadable, cryptographically signed PDF/JSON compliance certificate for carbon verifiers.
 
-### 4.6 Alignment with Varaha Strategic Goals (Verra VM0042 / CDM AMS-III.AU)
-Varaha operates one of the largest rice decarbonization programs in Asia, spanning hundreds of thousands of acres across Uttar Pradesh, Punjab, and Andhra Pradesh. This tool directly solves their core operational challenge: verifying farmer AWD compliance through all-weather satellite radar without needing millions of physical water-tube inspections.
+### 4.6 Strategic Alignment with International Standards (Verra VM0042 / CDM AMS-III.AU)
+Rice decarbonization programs in Asia span hundreds of thousands of acres across Uttar Pradesh, Punjab, and Andhra Pradesh. This tool directly solves their core operational challenge: verifying farmer AWD compliance through all-weather satellite radar without needing millions of physical water-tube inspections.
 
 ---
 
@@ -671,8 +671,8 @@ Any water sample exceeding $\text{CBE} > \pm 5\%$ is flagged for analytical erro
   - Build a React frontend featuring interactive parameter sliders (rock tonnage, $D_{50}$ grinding fineness, soil pH, rainfall).
   - Display 10-year dissolution trajectories and generate an Isometric-aligned credit certification summary.
 
-### 5.6 Alignment with Varaha Strategic Goals (Isometric ERW Standard / Puro.earth)
-Enhanced Rock Weathering represents the frontier of high-durability carbon removal. India contains the **Deccan Traps**, one of the world's largest volcanic basalt formations, surrounded by tropical farmland with high ambient temperatures and monsoonal rainfall—ideal conditions for rapid weathering. This project positions Varaha as a technology pioneer in tropical ERW dMRV.
+### 5.6 Strategic Alignment with International Standards (Isometric ERW Standard / Puro.earth)
+Enhanced Rock Weathering represents the frontier of high-durability carbon removal. India contains the **Deccan Traps**, one of the world's largest volcanic basalt formations, surrounded by tropical farmland with high ambient temperatures and monsoonal rainfall—ideal conditions for rapid weathering. This project establishes a foundational technological architecture for tropical ERW dMRV.
 
 ---
 
@@ -778,23 +778,23 @@ The matrix below benchmarks all five project concepts across eight quantitative 
 | **Primary Standard / Methodology** | Verra VM0042 / FAO GSOC | Verra VM0047 / Plan Vivo | Verra VM0042 / CDM AMS-III.AU | Isometric ERW / Puro.earth | Puro.earth Biochar / EBC |
 | **Durability Horizon** | 20–100 Years | 30–100 Years | Emission Avoidance | > 10,000 Years | 100–1,000+ Years |
 | **Core Technical Focus** | Geospatial ML + Biogeochemical Pools | 3D LiDAR/SAR + Allometric Forest Inversion | Radar Inundation Time-Series + Hydrographs | Reactive Transport Kinetics + LCA Netting | Append-Only Cryptographic Ledger + Full-Stack App |
-| **1. Domain Relevance to Varaha** | 5 / 5 | 5 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
+| **1. Domain Relevance & Impact** | 5 / 5 | 5 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
 | **2. Technical Depth & Rigor** | 5 / 5 | 5 / 5 | 4 / 5 | 5 / 5 | **4 / 5** |
 | **3. Feasibility in 6–12 Weeks** | 3 / 5 | 3 / 5 | 4 / 5 | 4 / 5 | **5 / 5** |
 | **4. Showcase & Live Demo Value** | 5 / 5 | 5 / 5 | 4 / 5 | 4 / 5 | **5 / 5** |
 | **5. Data Ingestion & API Resilience** | 3 / 5 | 2 / 5 | 4 / 5 | 3 / 5 | **5 / 5** |
 | **6. Verifiability & Tamper Resistance** | 3 / 5 | 3 / 5 | 4 / 5 | 4 / 5 | **5 / 5** |
 | **7. Climate Impact Potential** | 5 / 5 | 5 / 5 | 5 / 5 | 5 / 5 | **4 / 5** |
-| **8. Pedagogical Value for Interns** | 4 / 5 | 4 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
+| **8. Implementation Feasibility & Rigor** | 4 / 5 | 4 / 5 | 5 / 5 | 4 / 5 | **5 / 5** |
 | **TOTAL SCORE (out of 40)** | **33 / 40** | **32 / 40** | **35 / 40** | **33 / 40** | **38 / 40** |
 
 ---
 
 ### 7.2 Detailed Qualitative Trade-Off Analysis Across Dimensions
 
-#### Criterion 1: Domain Relevance to Varaha
-- **Proposals 1, 2, 3 & Anchor (5/5)**: Directly mirror Varaha's core commercial operations in the Global South. Varaha manages active agroforestry planting, large-scale regenerative agriculture cooperatives, hundreds of thousands of acres of AWD rice paddies, and distributed biochar kilns across India and East Africa.
-- **Proposal 4 (4/5)**: Enhanced Rock Weathering is an emerging high-durability frontier. While Varaha is actively researching tropical weathering in the Deccan Traps, commercial deployment is currently smaller in scale compared to biochar and rice projects.
+#### Criterion 1: Domain Relevance & Impact
+- **Proposals 1, 2, 3 & Anchor (5/5)**: Directly mirror core carbon removal operations in the Global South, spanning active agroforestry planting, large-scale regenerative agriculture cooperatives, hundreds of thousands of acres of AWD rice paddies, and distributed biochar kilns across India and East Africa.
+- **Proposal 4 (4/5)**: Enhanced Rock Weathering is an emerging high-durability frontier. While research into tropical weathering in the Deccan Traps is active, commercial deployment is currently smaller in scale compared to biochar and rice projects.
 
 #### Criterion 2: Technical Depth & Rigor
 - **Proposals 1, 2 & 4 (5/5)**: Represent peak scientific and algorithmic complexity. Proposal 1 requires solving RothC non-linear differential equations and multi-variate cLHS simulated annealing. Proposal 2 requires processing complex-number SAR backscatter, 3D LiDAR point clouds, and non-linear watershed segmentation. Proposal 4 demands solving Palandri-Kharaka kinetic rate laws and cradle-to-gate life cycle equations.
@@ -827,14 +827,14 @@ The matrix below benchmarks all five project concepts across eight quantitative 
 - **Proposals 1, 2 & 3 (5/5)**: Massive short-to-medium-term scale. Rice AWD addresses 10% of global agricultural methane; SOC and Agroforestry restore degraded soils and biodiversity across millions of smallholders.
 - **Anchor (4/5)**: High durability (100–1,000+ years). Biochar is an outstanding recalcitrant sink, though total tonnage per farm is limited by available crop residue biomass.
 
-#### Criterion 8: Pedagogical Value for Interns
+#### Criterion 8: Implementation Feasibility & Rigor
 - **Anchor (5/5)**: Teaches foundational full-stack software craftsmanship, clean REST API design, cryptographic data structures, relational data modeling, defensive programming, and automated end-to-end testing.
 - **Proposal 3 (5/5)**: The premier remote sensing training project—introduces radar physics, temporal signal processing, finite state machines, and IPCC climate accounting.
 - **Proposals 1, 2 & 4 (4/5)**: Exceptional specialization in geospatial AI, forest allometry, or geochemical transport.
 
 ---
 
-## 8. Strategic Recommendations & Progressive Internship Curriculum
+## 8. Strategic Recommendations & Architecture Roadmap
 
 ### 8.1 Why Biochar MRV is the Optimal Foundational Build
 For Requirements R2–R4, the **Biochar MRV Tracker** is unambiguously the correct software engineering showcase to implement:
@@ -843,12 +843,12 @@ For Requirements R2–R4, the **Biochar MRV Tracker** is unambiguously the corre
 2. **Deterministic Cryptographic Guarantees**: Digital MRV fundamentally exists to eliminate greenwashing and data tampering. Implementing a true SHA-256 append-only ledger in Express and SQLite provides interns with profound, hands-on experience in building tamper-evident financial-grade climate software.
 3. **End-to-End Completeness**: The candidate delivers a complete, production-ready system: a database schema with strict constraints, an Express REST API, server-enforced calculations, QR code image generation, CSV audit export, verification algorithms, a responsive React UI, and passing unit/integration test suites.
 
-### 8.2 A 4-Tier Progressive Curriculum for Climate-Tech Cohorts
-Rather than viewing these five projects in isolation, Varaha can deploy them as a **progressive 4-tier pedagogical curriculum** for incoming software engineering, data science, and remote sensing interns:
+### 8.2 A 4-Tier Progressive Architecture for Climate-Tech Systems
+Rather than viewing these five projects in isolation, Teams can deploy them as a **progressive 4-tier engineering architecture** for climate-tech and remote sensing systems:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                       VARAHA INTERNSHIP CURRICULUM                          │
+│                       CLIMATE-TECH dMRV ARCHITECTURE                          │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │   TIER 4: GEOSPATIAL AI & 3D REMOTE SENSING                                 │
@@ -888,7 +888,7 @@ Rather than viewing these five projects in isolation, Varaha can deploy them as 
 - **Advanced Frontier Track: Geospatial AI & Multi-Modal Earth Observation (Tier 4)**:
   Senior interns or returning fellows advance to the **Soil Carbon Fusion Platform** and **Agroforestry Biomass Engine**, building large-scale machine learning models combining Sentinel-2, Sentinel-1, GEDI LiDAR waveforms, and biogeochemical simulation models.
 
-### 8.3 Concluding Vision for Varaha's Digital Climate Infrastructure
+### 8.3 Concluding Vision for Digital Climate Infrastructure
 Digital MRV is the bridge connecting smallholder agricultural stewardship with global climate capital. By uniting:
 1. The **cryptographic immutability and software rigor** demonstrated in the Biochar MRV Tracker,
 2. The **all-weather radar hydrological tracking** of the Rice AWD Methane Verifier,
@@ -896,4 +896,4 @@ Digital MRV is the bridge connecting smallholder agricultural stewardship with g
 4. The **3D structural canopy allometry** of the Agroforestry Engine, and
 5. The **permanent geochemical mineralization accounting** of the ERW Tracker,
 
-Varaha can build the world's most resilient, scientifically unassailable, and economically scalable digital climate infrastructure—empowering millions of smallholder farming families while permanently removing millions of tons of carbon dioxide from our atmosphere.
+Organizations can build the world's most resilient, scientifically unassailable, and economically scalable digital climate infrastructure—empowering millions of smallholder farming families while permanently removing millions of tons of carbon dioxide from our atmosphere.

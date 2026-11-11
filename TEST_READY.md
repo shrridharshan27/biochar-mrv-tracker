@@ -2,7 +2,7 @@
 
 **Document Identifier**: `TEST-READY-001`  
 **Author**: E2E Test Architect (E2E Testing Track)  
-**Project**: Varaha Climate-Tech & Biochar MRV Tracker  
+**Project**: Biochar MRV Tracker  
 **Target Milestone**: M-Test / Requirement R4  
 **Date**: November 2026  
 **Status**: VERIFIED & PRODUCTION READY (100% Pass)  
@@ -21,7 +21,7 @@ All **44 test cases across 11 test suites** pass with an exit code of `0`.
 
 ## 2. Test Execution Commands
 
-The test suite can be executed using any of the following commands from the repository root (`c:\Project\internship`):
+The test suite can be executed using any of the following commands from the repository root:
 
 ```bash
 # Recommended: Master Test Runner with auto-lifecycle management
@@ -184,14 +184,14 @@ The test suite tests real SQLite mutation attacks to ensure the verification eng
 The E2E test suite meets all quality assurance requirements, conforms to all interface contracts, and is ready for integration into the master CI/CD pipeline and final milestone verification.
 
 - **Test Suite Files**:
-  - `c:\Project\internship\tests\helpers.js`
-  - `c:\Project\internship\tests\tier1_features.test.js`
-  - `c:\Project\internship\tests\tier2_boundaries.test.js`
-  - `c:\Project\internship\tests\tier3_combinations.test.js`
-  - `c:\Project\internship\tests\tier4_scenarios.test.js`
-  - `c:\Project\internship\tests\run_tests.js`
+  - `tests/helpers.js`
+  - `tests/tier1_features.test.js`
+  - `tests/tier2_boundaries.test.js`
+  - `tests/tier3_combinations.test.js`
+  - `tests/tier4_scenarios.test.js`
+  - `tests/run_tests.js`
 - **Documentation Files**:
-  - `c:\Project\internship\TEST_INFRA.md`
-  - `c:\Project\internship\TEST_READY.md`
+  - `TEST_INFRA.md`
+  - `TEST_READY.md`
 
 All files are delivered, verified, and complete.
