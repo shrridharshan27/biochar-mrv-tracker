@@ -1,0 +1,21 @@
+{
+  "name": "biochar-mrv-server",
+  "version": "1.0.0",
+  "description": "Biochar MRV Tracker Backend & Tamper-Proof Audit Trail",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "qrcode": "^1.5.4",
+    "ulid": "^2.3.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
